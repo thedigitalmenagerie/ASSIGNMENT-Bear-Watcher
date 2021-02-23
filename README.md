@@ -17,13 +17,13 @@ List of features
 Form with button, cards, leaderboard, HTML, CSS, vanilla Javascript
 
 Screenshots of project
-
+<img width="1440" alt="Screen Shot 2021-02-23 at 7 39 25 AM" src="https://user-images.githubusercontent.com/76716670/108852662-823faa80-75ab-11eb-9aba-902b7cda6c7d.png">
 
 List of contributors and links to GH profiles
 https://github.com/thedigitalmenagerie
 
 Link to Loom video walkthrough of application
-
+https://www.loom.com/share/38f646c5d2654d958844036dff0d16d7
 
 
 Future Iterations will include:
