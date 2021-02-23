@@ -13,6 +13,9 @@ Link to project board:
 
 https://github.com/thedigitalmenagerie/ASSIGNMENT-Bear-Watcher/projects
 
+Link to Figma planning:
+https://www.figma.com/file/LNnoRMMS28qcpub5A6wAms/ASSIGNMENT-Bear-Watcher?node-id=0%3A1
+
 Description of the user: 
 
 Upon load user will see a form to enter an name and image url with a submit button. Once Submitted, user will see a card displayed with their entered info and the bear's stats, which begin at zero for attempts and catches in regards to fish. Upon load, user will also see the leaderboard that will begin to populate and change as competing bears attempt and catch fish. 
