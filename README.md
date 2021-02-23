@@ -6,8 +6,9 @@ Overview of the project:
 
 A modularized application that allows user to enter a bear into the catching competition!
 
-Link to the deployed project
+Link to the deployed project: 
 
+https://hr-bear-watcher.netlify.app/
 
 Link to project board: 
 
