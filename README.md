@@ -1,47 +1,32 @@
-# Bear Watcher
-## Introduction
-Each year between July and September brown bears in the Katmai National Park congregate along the Brooks River.  This river is one of the main rivers that Sockeye Salmon swim up to spawn.  The brown bears wait in the shallows of the river and catch the salmon as they jump over rocks.  Want to see it in [ACTION](https://explore.org/livecams/brown-bears/brown-bear-salmon-cam-brooks-falls)?
+Name of the Project
+Bear Watcher
 
-You have been tasked with creating a site scientists and park ranger can use to track these bears.
+Overview of the project
+A modularized application that allows user to enter a bear into the catching competition!
 
-## Get Started
+Link to the deployed project
 
-1. Clone this repo
-```
-$ git clone github-url
-$ cd repo-name
-```
-2. Follow the instructions from the ["Starting the Project" Instructions](https://github.com/nss-nightclass-projects/webpack-template/blob/master/README.md#starting-the-project) to ensure you make all the updates to get the project started.
 
-3. Install Packages
+Link to project board
+https://github.com/thedigitalmenagerie/ASSIGNMENT-Bear-Watcher/projects
 
-```
-$ sudo npm install
-$ npm start
-```
+Description of the user
+Upon load user will see a form to enter an name and image url with a submit button. Once Submitted, user will see a card displayed with their entered info and the bear's stats, which begin at zero for attempts and catches in regards to fish. Upon load, user will also see the leaderboard that will begin to populate and change as competing bears attempt and catch fish. 
 
-## Planning Requirements
-* Create a github project on this repo
-* Create feature tickets for this assignment
-* Create wireframes for this project and attach them to the appropriate project ticket.
+List of features
+Form with button, cards, leaderboard, HTML, CSS, vanilla Javascript
 
-## Technical Requirements
-* You must use [Boostrap](https://getbootstrap.com/) to style your page components.
-* Your JS file should be comprised of functions, no actions should happen in your code outside of a function
-* Your HTML and JS should all have proper indentations
-* You should be have Modular Code
-* Your JS code should be eslint error and warning free
+Screenshots of project
 
-## User stories
-* As a user, when the page loads, I should see a bootstrap form that allows me to enter in a bear name and image url for a new bear.
-* As a user, when I click the submit button on the new bear form a bear should be added to the page.
-* As a user, when there are bears that are being tracked (ie after I have added one), I should see all their information displayed on a card.
 
-## Dev Notes
-* Your project should have 2 modules - bearForm and river.
-  * bearForm - should be the form
-  * river - should display all the bears
+List of contributors and links to GH profiles
+https://github.com/thedigitalmenagerie
 
+Link to Loom video walkthrough of application
+
+
+
+Future Iterations will include:
 ## Bonus #1: Tracking Fishing
 * As a user, I should be able to click something on each bear to indicate it has just tried to catch a fish.
 * As a user, I should be able to click something on each bear to indicate it has just successfully caught a fish.
