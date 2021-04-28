@@ -1,3 +1,4 @@
 const competingBears = [];
+const fattestBearArray = [];
 
-export default competingBears;
+export { competingBears, fattestBearArray };

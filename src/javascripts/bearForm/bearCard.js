@@ -1,4 +1,4 @@
-import competingBears from '../river/data/competingBears';
+import { competingBears } from '../river/data/competingBears';
 import printToDom from '../river/printToDom';
 
 const printBearCard = () => {
@@ -11,10 +11,12 @@ const printBearCard = () => {
     </div>
     <div class="col-md-8">
       <div class="card-body">
+        <h3 class="card-title"><small>${item.fatBearAward}</small></h3>
         <h5 class="card-title"><small>${item.bearName}</small></h5>
         <p class="card-text"><small>Attempts: ${item.attemptCount} Catches: ${item.catchCount}</small></p>
-        <p class="card-text"><small class="text-muted">Last attempt: Last caught:</small></p>
-      <button type="button" class="btn" id="catch-btn">Catch!</button>
+        <p class="card-text"><small class="text-muted">Last attempt: ${item.attemptTimeStamp}</small></p>
+        <p class="card-text"><small class="text-muted">Last caught: ${item.catchTimeStamp}</small></p>
+      <button type="button" class="btn" id="${item.bearId}">Catch!</button>
       </div>
     </div>
     </div>
